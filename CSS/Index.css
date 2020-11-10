@@ -59,6 +59,7 @@ body {
     width: 100%;
     margin-top: 0; /*CARAMICO EDITOU*/
     background-image: url(../Imagens/contro2.jpg);
+    opacity:0.5;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
