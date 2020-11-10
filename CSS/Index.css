@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background-image: url(../Imagens/contro2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*CARAMICO EDITOU inicio aqui*/
+
+.center-nav {
+    border: 3px solid yellow;
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-left: 33%;
+}
+
+.right-nav {
+    float: right;
+    border: 1px solid purple;
+    overflow: auto;
+    width: 33%;
+    margin-top: 10px;
+}
+
+.my-nav {
+    border: 1px solid pink;
+    overflow: auto; /*CARAMICO EDITOU*/
+}
+
+.navbar img {
+    border: 1px solid green;
+}
+
+.navbar ul {
+    border: 1px solid cyan;
+    overflow: auto;
+}
+/* Começo da Navbar */
+
+.navbar {
+    height: auto;/*CARAMICO EDITOU*/
+    text-align: center;
+    position: fixed;
+    top: 0;/*CARAMICO EDITOU*/
+    left: 0;/*CARAMICO EDITOU*/
+    /*muuuuito cuidado com valores negativos de margem e padding a fim de posicionar elementos, ok?
+    melhor trabalhar então com valores absolutos,  como o top e left que coloquei 
+    para posicionar sua navbar no canto superior esquerdo da página.*/
+    width: 100%;
+    margin-top: 0; /*CARAMICO EDITOU*/
+    background-image: url(../Imagens/contro2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar img {
+    width: 100px;
+    padding-left: 0;/*CARAMICO EDITOU*/
+    padding-top: 15px;/*CARAMICO EDITOU*/
+}
+
+.navbar h2 {
+    float: right;
+    color: white;
+    padding-left: 2.2%;
+    margin-top: 40px;
+}
+
+.navbar ul {
+    margin-left: 0; /*CARAMICO EDITOU*/
+    padding-left: 0; /*CARAMICO EDITOU*/
+    text-transform: uppercase;
+}
+
+.navbar li {
+    list-style: none;
+    margin-left: 1.5%;
+    display: inline-block;
+    text-align: center; /*CARAMICO EDITOU*/
+}
+
+.navbar span {
+    color: white;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #1ba4ff;
+}
+
+/* Fim da Navbar */
+
+/* Começo conteudo */
+
+.conteudo {
+    margin-top: 280px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 3px #1ba4ff solid;
+    border-radius: 20px;
+    text-transform: uppercase;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #1ba4ff;
+    color: black;
+}
+
+/* Fim conteudo */
+
+/* Começo valores */
+
+.valores {
+    color: white;
+    text-align: center;
+    margin-top: 450px;
+    height: 1000px;
+}
+
+.valores span {
+    color: #1ba4ff;
+}
+
+.valores h2 {
+    color: #1ba4ff;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.valores p {
+    font-size: 20px;
+}
+
+/* Fim valores */

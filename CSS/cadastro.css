@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-image: url(../Imagens/Fundo\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+/* Começo da Navbar */
+.navbar {
+    height: 115px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-image: url(../Imagens/Fundo\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar img {
+    width: 100px;
+    padding-left: 16%;
+    padding-top: 15px;
+}
+
+.navbar h2 {
+    float: right;
+    color: white;
+    padding-left: 2.2%;
+    margin-top: 40px;
+}
+
+.navbar ul {
+    margin-left: 35%;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    margin-left: 1.5%;
+}
+
+.navbar span {
+    color: white;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #1ba4ff;
+}
+/* Fim da Navbar */
+
+
+
+/* Começo cadastro */
+.inputs {
+    padding-top: 350px;
+    text-align: center;
+}
+
+.inputs input {
+    background: none;
+    border: none;
+    border-bottom: 5px #1ba4ff solid;
+    outline: none;
+    height: 32px;
+    width: 300px;
+    font-size: 25px;
+    color: #1ba4ff;
+    padding-left: 55px;
+    background-repeat: no-repeat;
+    background-size: 56px;
+}
+
+#id {
+    background-image: url(../Imagens/Usericon.png);
+}
+
+#nascimento {
+    background-image: url(../Imagens/calendario.png);
+}
+
+#senha {
+    background-image: url(../Imagens/cadeado.png);
+}
+
+#mail {
+    background-image: url(../Imagens/Arroba.png);
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 3px #1ba4ff solid;
+    border-radius: 20px;
+    text-transform: uppercase;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #1ba4ff;
+    color: black;
+}
+
+/* Fim cadastro */
